@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our Website</h1>
+    </header>
+    <main>
+      <section class="categories">
+        <h2>Product Categories</h2>
+        <ul id="categoryList"></ul>
+      </section>
+      <section class="add-product">
+        <h2>Add a Product</h2>
+        <form id="productForm">
+          <input type="text" id="productTitle" placeholder="Product Title" />
+          <button type="submit">Add Product</button>
+        </form>
+        <div id="productResult"></div>
+      </section>
+      <section class="add-product">
+
+      <button id="updateProductButton">Update Product Title</button>
+      <div id="updateResult"></div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
